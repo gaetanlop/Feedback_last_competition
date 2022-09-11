@@ -8,4 +8,6 @@
 * Change the pretrained backbones: deberta trained on other feedbacks or trained on readability feature of commonlit.
 * Pseudo labeling either using prev competition data or creating new ones using gpt or T5 (so that it is from students from same age)
 * Verify as fasdt as possible if adding diversity/plurality will increase performance (pipeline of ensembling to do fast)
+* Try gpr for ensembling (https://www.kaggle.com/competitions/commonlitreadabilityprize/discussion/258554)
+* Try to recreate an approach using sentence transformer like the first of the competition (based on readability feature for example?) (https://www.kaggle.com/competitions/commonlitreadabilityprize/discussion/257844)
 * ...
